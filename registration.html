@@ -20,7 +20,7 @@
 
         main {
             margin: auto;
-            height: 30rem;
+            height: 60rem;
             width: 60%; 
             background-color: #b8b8ff;
             border-radius: 1rem;
@@ -92,6 +92,76 @@
     </style>
 </head>
 <body>
+    <main>
+        
+        <h1>Registration</h1>
+        <form action="action.php" >
+            <div class="flex-field">
+                <label for="Username">Username</label>
+                <input type="text" name="Username" class="grid-input">
+            </div>
+
+            <div class="flex-field">
+                <label for="Email">Email</label>
+                <input type="email" name="Username"class="grid-input">
+            </div>
+             
+            <div class="flex-field">
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="" class="grid-input">
+            </div>
+             
+            <div class="flex-field">
+                <label for="Cellphone">Cellphone</label>
+                <input type="number" name="Cellphone number" id=""class="grid-input">
+            </div>
+
+            <div class="flex-field">
+                <input type="hidden" value="abc1234" name="secret_key"class="grid-input"></div>
+
+            <div class="flex-field">
+                <label for="textarea">Textarea</label>
+                <textarea name="Address" id="" rows="s"class="grid-input">
+                </textarea>
+            </div>
+             
+            <div class="flex-field">
+                <label for="date">date</label>
+                <input type="date" name="date" id=""class="grid-input">
+            </div>
+             
+            <div class="flex-field">
+                <label for="datetime-local">datetime-local</label>
+                <input type="datetime-local" name="datetime" id=""class="grid-input">
+            </div>
+             
+         
+                <label for="reset">Reset</label>
+                <input type="reset" value="Click reset">
+
+             
+            <div class="checkbox-form"><input type="checkbox" name="Skills" id="" value="Programming"class="grid-input"><label for="Skills">Programming</label></div>
+
+            <div class="checkbox-form"><input type="checkbox" name="Skill" id="" value="Java" checkedclass="grid-input"><label for="Skills">Java</label></div>
+
+            <div class="checkbox-form"><input type="radio" name="Skillss" id="" value="Java" ><label for="Skills">web dev</label></div>
+
+            <input type="file" name="file-upload" id="" accept=".jpg, .png, .gif">
+
+               <div class="grid-select">
+                <select name="Year-level" id=""class="grid-input">
+                    <option value="1">First year</option>
+                    <optgroup label="Undergrad">College</optgroup>
+                    <option value="2">Second Year</option>
+                    <option value="3">Third Year</option>
+                    <option value="4">Fourth Year</option>
+                </select>
+          </div>>
+        
+        <input type="submit" value="Click Submit">
+        </form>
     
+    </main>
+
 </body>
 </html> 
